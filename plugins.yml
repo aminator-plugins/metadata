@@ -10,3 +10,9 @@ ansible:
    branch: master
    repo_name: ansible-provisioner
    description: This Aminator plugin allows you to provision an AMI using an Ansible playbook.
+euca:
+   type: cloud
+   aliases: [ eucalyptus, eucalyptus-cloud ]
+   branch: master
+   repo_name: eucalyptus-cloud
+   description: Eucalyptus cloud plugin for NetflixOSS Aminator
