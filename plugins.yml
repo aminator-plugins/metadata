@@ -1,7 +1,7 @@
 chef:
    type: provision
    aliases: [ chefsolo, chef-solo ]
-   branch: master
+   branch: testing
    repo_name: chef-solo-provisioner
    description: This plugin allows you to use chef-solo to bake AMIs
 ansible:
