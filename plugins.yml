@@ -10,6 +10,12 @@ ansible:
    branch: master
    repo_name: ansible-provisioner
    description: This Aminator plugin allows you to provision an AMI using an Ansible playbook.
+puppet:
+   type: provision
+   aliases: [ ]
+   branch: master
+   repo_name: puppet-provisioner
+   description: This Aminator plugin allows you to provision an AMI using Puppet
 euca:
    type: cloud
    aliases: [ eucalyptus, eucalyptus-cloud ]
