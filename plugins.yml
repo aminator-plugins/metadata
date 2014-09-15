@@ -1,24 +1,37 @@
-chef:
-   type: provision
-   aliases: [ chefsolo, chef-solo ]
-   branch: master
-   repo_name: chef-solo-provisioner
-   description: This plugin allows you to use chef-solo to bake AMIs
 ansible:
    type: provision
    aliases: [ ]
    branch: master
    repo_name: ansible-provisioner
    description: This Aminator plugin allows you to provision an AMI using an Ansible playbook.
-puppet:
+buri:
    type: provision
    aliases: [ ]
    branch: master
-   repo_name: puppet-provisioner
-   description: This Aminator plugin allows you to provision an AMI using Puppet
+   repo_name: buri-provisioner
+   description: Aminator provisioner plugin using Buri (https://github.com/viafoura/buri)
+chef:
+   type: provision
+   aliases: [ chefsolo, chef-solo ]
+   branch: master
+   repo_name: chef-solo-provisioner
+   description: This plugin allows you to use chef-solo to bake AMIs
+docker:
+   type: cloud
+   aliases: [ ]
+   branch: master
+   repo_name: docker-cloud
+   description: Plugin to enable creation of Docker images
 euca:
    type: cloud
    aliases: [ eucalyptus, eucalyptus-cloud ]
    branch: master
    repo_name: eucalyptus-cloud
    description: Eucalyptus cloud plugin for NetflixOSS Aminator
+puppet:
+   type: provision
+   aliases: [ ]
+   branch: master
+   repo_name: puppet-provisioner
+   description: This Aminator plugin allows you to provision an AMI using Puppet
+
